@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import Box from '../Box/Box';
 import Plane from '../Plane/Plane';
 import { Physics } from '@react-three/cannon';
-import { VRButton, XR } from '@react-three/xr';
+import { VRButton, XR, Controllers, Hands } from '@react-three/xr';
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
       <VRButton />
       <Canvas>
         <XR>
+          <Controllers />
+          <Hands />
           <Physics>
             <ambientLight intensity={0.3} />
             <directionalLight position={[10, 10, 10]} />
