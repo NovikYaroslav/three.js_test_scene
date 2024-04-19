@@ -6,12 +6,12 @@ export default function Plane() {
   const grass = useLoader(TextureLoader, 'grass.jpeg');
   const [ref] = usePlane(() => ({
     rotation: [-Math.PI / 2, 0, 0],
-    position: [0, -3, -1],
+    position: [0, -2, 0],
   }));
 
   return (
     <mesh ref={ref}>
-      <planeGeometry args={[15, 15]} />
+      <planeGeometry args={[10, 10]} />
       <meshStandardMaterial map={grass} />
     </mesh>
   );

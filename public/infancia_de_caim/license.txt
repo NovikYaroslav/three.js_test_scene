@@ -1,0 +1,11 @@
+Model Information:
+* title:	Infância De Caim
+* source:	https://sketchfab.com/3d-models/infancia-de-caim-da2816b8701a47f8b34f80d0adb87be6
+* author:	Artur Coelho (https://sketchfab.com/coelhoelectrico)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Infância De Caim" (https://sketchfab.com/3d-models/infancia-de-caim-da2816b8701a47f8b34f80d0adb87be6) by Artur Coelho (https://sketchfab.com/coelhoelectrico) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
