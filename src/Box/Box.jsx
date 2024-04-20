@@ -12,7 +12,6 @@ export default function Box(props) {
   return (
     <mesh ref={ref}>
       <boxGeometry args={[1, 1]} />
-
       <meshStandardMaterial map={crate2} />
     </mesh>
   );
