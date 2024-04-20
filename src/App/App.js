@@ -7,12 +7,7 @@ import { OrbitControls } from '@react-three/drei';
 import { Sculpture } from '../Sculpture/Sculpture';
 import Tree from '../Tree/Tree';
 import GrassLine from '../Grass-line/Grass-line';
-import {
-  Bloom,
-  DepthOfField,
-  EffectComposer,
-  Vignette,
-} from '@react-three/postprocessing';
+import { Bloom, EffectComposer, Vignette } from '@react-three/postprocessing';
 
 function App() {
   return (
@@ -35,12 +30,6 @@ function App() {
           </Physics>
         </XR>
         <EffectComposer>
-          {/* <DepthOfField
-            focusDistance={0}
-            focalLength={0.02}
-            bokehScale={2}
-            height={480}
-          /> */}
           <Bloom luminanceThreshold={0} luminanceSmoothing={1} height={600} />
           <Vignette eskil={false} offset={0.1} darkness={0.9} />
         </EffectComposer>
