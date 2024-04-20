@@ -5,7 +5,7 @@ import { TextureLoader } from 'three/src/loaders/TextureLoader';
 export default function Box(props) {
   const [ref] = useBox(() => ({
     position: [1, 2, 0],
-    mass: 1,
+    mass: 2,
     ...props,
   }));
   const [crate2] = useLoader(TextureLoader, ['crate-2.png']);
