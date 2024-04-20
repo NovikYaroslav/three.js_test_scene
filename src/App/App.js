@@ -18,7 +18,7 @@ function App() {
   return (
     <div className='App'>
       <VRButton />
-      <Canvas>
+      <Canvas camera={{ fov: 60, near: 0.1, far: 1000, position: [2, 0.3, 5] }}>
         <XR>
           <Controllers />
           <Hands />
@@ -35,12 +35,12 @@ function App() {
           </Physics>
         </XR>
         <EffectComposer>
-          <DepthOfField
+          {/* <DepthOfField
             focusDistance={0}
             focalLength={0.02}
             bokehScale={2}
             height={480}
-          />
+          /> */}
           <Bloom luminanceThreshold={0} luminanceSmoothing={1} height={600} />
           <Vignette eskil={false} offset={0.1} darkness={0.9} />
         </EffectComposer>
