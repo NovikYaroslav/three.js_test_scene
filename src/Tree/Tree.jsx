@@ -1,6 +1,6 @@
 import { useGLTF } from '@react-three/drei';
 
-export function Tree2(props) {
+export default function Tree(props) {
   const { nodes, materials } = useGLTF('/tree/scene.gltf');
   return (
     <group {...props} dispose={null}>

@@ -5,7 +5,7 @@ import { Physics } from '@react-three/cannon';
 import { VRButton, XR, Controllers, Hands } from '@react-three/xr';
 import { OrbitControls } from '@react-three/drei';
 import { Sculpture } from '../Sculpture/Sculpture';
-import { Tree2 } from '../Tree-2/Tree-2';
+import Tree from '../Tree/Tree';
 import GrassLine from '../Grass-line/Grass-line';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
             <ambientLight intensity={0.3} />
             <directionalLight position={[10, 10, 10]} />
             <directionalLight position={[20, 10, 10]} />
-            <Tree2 />
+            <Tree />
             <GrassLine />
             <Sculpture position={[0.25, -2.78, 0]} />
             <Plane />
