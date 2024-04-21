@@ -1,0 +1,13 @@
+.loader {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+@import url(./styles/loader__spinner.css);
+@import url(./styles/loader__text.css);
